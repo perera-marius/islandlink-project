@@ -1,0 +1,54 @@
+/* ===== ORDER CONFIRMATION PAGE ===== */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #2a9d8f, #264653);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.order-container {
+    background: #b9f5aa;
+    width: 90%;
+    max-width: 450px;
+    padding: 35px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.order-container h2 {
+    color: #264653;
+    margin-bottom: 15px;
+}
+
+.order-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.delivery-date {
+    background: #2a9d8f;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.order-container a {
+    display: inline-block;
+    text-decoration: none;
+    background: #264653;
+    color: #ffffff;
+    padding: 12px 22px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.order-container a:hover {
+    background: #1d3557;
+}
