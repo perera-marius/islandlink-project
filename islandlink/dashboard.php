@@ -298,14 +298,20 @@ if (!isset($_SESSION['role'])) header("Location: login.php");
                     <span>Global Orders</span>
                 </a>
                 <a href="add_product.php" class="menu-item">
-                    <i class="fas fa-plus-hexagon"></i>
+                    <i class="fa-solid fa-plus"></i>
                     <span>Add Item</span>
                 </a>
                 <a href="manage_products.php" class="menu-item">
                     <i class="fas fa-boxes"></i>
                     <span>Inventory</span>
                 </a>
+                 <a href="tracker.php" class="menu-item">
+                    <i class="fa-solid fa-truck"></i>
+                    <span>Manage Orders</span>
+                </a>
+
             </div>
+
         <?php endif; ?>
 
     </main>
